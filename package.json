@@ -1,6 +1,6 @@
 {
   "name": "is-es6-generator",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check that given value is Generator",
   "repository": "tunnckoCore/is-es6-generator",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
