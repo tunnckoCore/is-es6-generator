@@ -23,10 +23,24 @@ isGenerator(null) //=> false
 isGenerator(undefined) //=> false
 isGenerator(25) //=> false
 isGenerator('test') //=> false
-isGenerator(function * () {}) //=> false
+isGenerator(function fn () {}) //=> false
+isGenerator(function * genFn () {}) //=> false
 isGenerator(generator), true)
 ```
 
+
+## See also
+- [apidocs-cli](https://github.com/tunnckocore/apidocs-cli): Async CLI for automatically generating API docs from code comments
+- [is-es6-generators](https://github.com/tunnckocore/is-es6-generators): Check whether a value is a generator or generator function.
+- [is-generator-function-name](https://github.com/tunnckocore/is-generator-function-name): Check that given value have `GeneratorFunction` name… [more](https://github.com/tunnckocore/is-generator-function-name).
+- [is-generator-function](https://github.com/ljharb/is-generator-function): Determine if a function is an ES6 generator function or not.
+- [is-generator](https://github.com/blakeembrey/is-generator): Check whether a value is a generator or generator function
+- [is-hybrid](https://github.com/hybridables/is-hybrid): Check whether an object looks like Hybrid which is promises-a+ promise and callback api
+- [is-promise](https://github.com/then/is-promise): Test whether an object looks like a promises-a+ promise
+- [is-missing](https://github.com/tunnckoCore/is-missing): Check that given `name` or `user/repo` exists in npm registry or in github as… [more](https://github.com/tunnckoCore/is-missing)
+- [is-installed](https://github.com/tunnckoCore/is-installed): Checks that given package is installed on the system - globally or locally.
+- [is-kindof](https://github.com/tunnckoCore/is-kindof): Thin wrapper around `kind-of` and in bonus functional api.
+- [npm-related](https://github.com/tunnckoCore/npm-related): Thin wrapper on top of `helper-related` for generating a list of links to the… [more](https://github.com/tunnckoCore/npm-related)
 
 ## Contributing
 
